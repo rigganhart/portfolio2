@@ -2,12 +2,12 @@
 
 
 $(window).scroll(function(){
-  var nav = document.getElementById('heroNav');
+  var nav = document.getElementById('notStuck');
   if ( $(this).scrollTop() > 500) {
-    nav.classList.add("heroNavScrolled");
+    nav.classList.add("navScrolled");
     console.log("should stick");
     console.log(nav);
   } else {
-    nav.classList.remove("heroNavScrolled");
+    nav.classList.remove("navScrolled");
   }
 });
